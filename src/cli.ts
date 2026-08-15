@@ -8,9 +8,9 @@ import type { TransactionFormat } from "./types.js";
 
 function usage(): never {
   console.error(`Usage:
-  safesign validate [fixture-directory]
-  safesign inspect <fixture.json>
-  safesign analyze <legacy|v0> <transaction-base64>`);
+  txspec validate [fixture-directory]
+  txspec inspect <fixture.json>
+  txspec analyze <legacy|v0> <transaction-base64>`);
   process.exit(2);
 }
 

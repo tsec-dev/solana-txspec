@@ -13,7 +13,7 @@ The proof of concept answers one question first: can a public transaction corpus
 
 - Expand to 30–50 reviewed fixtures, including multisig, durable nonce, address lookup tables, swaps, compressed assets, and Token-2022 extensions.
 - Publish the schema and fixtures as a versioned npm package.
-- Add an adapter interface that lets wallets map SafeSign findings to their own warnings without exposing user data.
+- Add an adapter interface that lets wallets map TxSpec findings to their own warnings without exposing user data.
 - Recruit two wallet, simulator, or explorer teams to run the corpus and document usability feedback.
 
 ## Milestone 3 — durable public good

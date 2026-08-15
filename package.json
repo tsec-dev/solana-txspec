@@ -1,5 +1,5 @@
 {
-  "name": "solana-safesign",
+  "name": "solana-txspec",
   "version": "0.1.0",
   "description": "Open, reproducible Solana transaction safety fixtures and a deterministic validator.",
   "private": true,
@@ -9,7 +9,7 @@
     "node": ">=22"
   },
   "bin": {
-    "safesign": "dist/cli.js"
+    "txspec": "dist/cli.js"
   },
   "exports": {
     ".": "./dist/index.js"

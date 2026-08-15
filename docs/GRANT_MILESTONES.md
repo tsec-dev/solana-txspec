@@ -8,7 +8,7 @@ This plan covers the work proposed for a 10,000 USDG grant. It builds on the six
 
 **Funding allocation:** 2,000 USDG
 
-Finalize the SafeSign v0.2 fixture specification and expand the corpus from 6 to at least 15 reviewed scenarios. Coverage will include SOL and token transfers, delegate approvals, authority changes, account closures, Token-2022, unknown programs, and risky instructions placed inside multi-instruction transactions.
+Finalize the TxSpec v0.2 fixture specification and expand the corpus from 6 to at least 15 reviewed scenarios. Coverage will include SOL and token transfers, delegate approvals, authority changes, account closures, Token-2022, unknown programs, and risky instructions placed inside multi-instruction transactions.
 
 **Completion evidence:**
 
@@ -66,7 +66,7 @@ Use the harness and testing checklist to evaluate at least 10 representative sce
 
 ## End-of-project outcomes
 
-By the project deadline, SafeSign will provide:
+By the project deadline, TxSpec will provide:
 
 - At least 25 reviewed safety fixtures across 10 or more categories
 - A deterministic analyzer, CLI, npm package, and CI workflow

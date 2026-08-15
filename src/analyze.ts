@@ -48,7 +48,7 @@ function analyzeSystemInstruction(
           code: "UNKNOWN_SYSTEM_INSTRUCTION",
           severity: "medium",
           instructionIndex,
-          summary: `System Program instruction ${type} is not decoded by SafeSign yet.`,
+          summary: `System Program instruction ${type} is not decoded by TxSpec yet.`,
         },
       ];
     }
@@ -172,7 +172,7 @@ function analyzeTokenInstruction(
       code: "UNKNOWN_TOKEN_INSTRUCTION",
       severity: "medium",
       instructionIndex,
-      summary: `${program} discriminator ${discriminator ?? "missing"} is not decoded by SafeSign yet.`,
+      summary: `${program} discriminator ${discriminator ?? "missing"} is not decoded by TxSpec yet.`,
     },
   ];
 }
