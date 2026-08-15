@@ -1,6 +1,6 @@
 # Security policy
 
-SafeSign is experimental test infrastructure. It does not determine whether a transaction is safe and must not be treated as an audit or signing recommendation.
+TxSpec is experimental test infrastructure. It does not determine whether a transaction is safe and must not be treated as an audit or signing recommendation.
 
 ## Safe use
 

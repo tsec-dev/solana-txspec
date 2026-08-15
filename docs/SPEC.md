@@ -1,4 +1,4 @@
-# SafeSign fixture specification v0.1
+# TxSpec fixture specification v0.1
 
 Each fixture is a strict JSON object. Unknown fields are rejected so typos cannot silently alter the meaning of a test.
 

@@ -1,14 +1,14 @@
-# Solana SafeSign
+# Solana TxSpec
 
-Solana SafeSign is an open, reproducible test corpus for transaction explanations. It gives wallet teams harmless unsigned transactions with machine-readable expected findings, so they can test whether risky effects are shown clearly before a user signs.
+Solana TxSpec is an open, reproducible test corpus for transaction explanations. It gives wallet teams harmless unsigned transactions with machine-readable expected findings, so they can test whether risky effects are shown clearly before a user signs.
 
 The first release is deliberately small: six deterministic legacy and v0 fixtures covering SOL transfers, delegate approvals, authority changes, account closure, Token-2022, and a risky instruction placed late in a bundle.
 
 ## Why this exists
 
-Wallet safety behavior is difficult to compare when every team maintains private examples and subjective screenshots. SafeSign separates the transaction corpus from any wallet UI. A wallet, simulator, explorer, or security tool can consume the same fixtures and assert its own presentation behavior against a stable set of expected effects.
+Wallet safety behavior is difficult to compare when every team maintains private examples and subjective screenshots. TxSpec separates the transaction corpus from any wallet UI. A wallet, simulator, explorer, or security tool can consume the same fixtures and assert its own presentation behavior against a stable set of expected effects.
 
-SafeSign is not a wallet ranking, an audit, or a guarantee that a transaction is safe.
+TxSpec is not a wallet ranking, an audit, or a guarantee that a transaction is safe.
 
 ## Quick start
 
@@ -52,5 +52,10 @@ Never paste a seed phrase or private key into this project. The committed transa
 ## Project status
 
 This is an experimental grant-ready proof of concept, not production security infrastructure. The proposed route to a useful public good is documented in [docs/ROADMAP.md](docs/ROADMAP.md).
+
+The grant proposal's measurable commitments are published separately:
+
+- [Goals, milestones, completion evidence, and budget](docs/GRANT_MILESTONES.md)
+- [Primary KPI, success threshold, and reporting plan](docs/GRANT_KPI.md)
 
 Contributions are welcome under the MIT license.
