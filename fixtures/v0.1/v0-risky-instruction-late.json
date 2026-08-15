@@ -1,0 +1,28 @@
+{
+  "specVersion": "0.1",
+  "id": "v0-risky-instruction-late",
+  "title": "Versioned bundle with a late risky instruction",
+  "description": "A compute-budget and memo prelude followed by a delegate approval at the end.",
+  "cluster": "localnet",
+  "format": "v0",
+  "transactionBase64": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIBBAcBAgMEBQYHCAkKCwwNDg8QERITFBUWFxgZGhscHR4fIKGio6SlpqeoqaqrrK2ur7CxsrO0tba3uLm6u7y9vr/AUVJTVFVWV1hZWltcXV5fYGFiY2RlZmdoaWprbG1ub3ADBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAVKU1qZKSEGTSTocWDaOHx8NbXdvJK7geQfqEBBBUSNBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKl5ent8fX5/gIGCg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMABQJADQMABAAWUm91dGluZSB3YWxsZXQgcmVxdWVzdAUDAgYBCQR/lpgAAAAAAAA=",
+  "expectedFindings": [
+    {
+      "code": "TOKEN_DELEGATE_APPROVAL",
+      "instructionIndex": 2
+    },
+    {
+      "code": "RISKY_INSTRUCTION_LATE_IN_BUNDLE",
+      "instructionIndex": 2
+    }
+  ],
+  "safety": {
+    "unsigned": true,
+    "broadcastAllowed": false,
+    "disposableAddresses": true
+  },
+  "references": [
+    "https://solana.com/docs/core/transactions",
+    "https://solana.com/docs/tokens/basics/set-authority"
+  ]
+}

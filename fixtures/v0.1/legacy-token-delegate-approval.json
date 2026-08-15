@@ -1,0 +1,23 @@
+{
+  "specVersion": "0.1",
+  "id": "legacy-token-delegate-approval",
+  "title": "Legacy SPL Token delegate approval",
+  "description": "Grants a delegate permission to spend 100,000,000 raw token units.",
+  "cluster": "localnet",
+  "format": "legacy",
+  "transactionBase64": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgECBQECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8BRUlNUVVZXWFlaW1xdXl9gYWJjZGVmZ2hpamtsbW5vcHl6e3x9fn+AgYKDhIWGh4iJiouMjY6PkJGSk5SVlpeYBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAwIDAQkEAOH1BQAAAAA=",
+  "expectedFindings": [
+    {
+      "code": "TOKEN_DELEGATE_APPROVAL",
+      "instructionIndex": 0
+    }
+  ],
+  "safety": {
+    "unsigned": true,
+    "broadcastAllowed": false,
+    "disposableAddresses": true
+  },
+  "references": [
+    "https://solana.com/docs/tokens/basics/set-authority"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "specVersion": "0.1",
+  "id": "legacy-token-account-close",
+  "title": "Legacy SPL Token account close",
+  "description": "Closes a disposable token account and redirects its rent balance.",
+  "cluster": "localnet",
+  "format": "legacy",
+  "transactionBase64": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBBQECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8ApKissLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSFFSU1RVVldYWVpbXF1eX2BhYmNkZWZnaGlqa2xtbm9wBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAwMCAQEJ",
+  "expectedFindings": [
+    {
+      "code": "TOKEN_ACCOUNT_CLOSE",
+      "instructionIndex": 0
+    }
+  ],
+  "safety": {
+    "unsigned": true,
+    "broadcastAllowed": false,
+    "disposableAddresses": true
+  },
+  "references": [
+    "https://solana.com/docs/tokens/basics/set-authority"
+  ]
+}

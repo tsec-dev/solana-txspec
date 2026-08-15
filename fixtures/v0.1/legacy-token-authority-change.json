@@ -1,0 +1,23 @@
+{
+  "specVersion": "0.1",
+  "id": "legacy-token-authority-change",
+  "title": "Legacy SPL Token authority change",
+  "description": "Changes a disposable token account owner to another disposable address.",
+  "cluster": "localnet",
+  "format": "legacy",
+  "transactionBase64": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBBAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8BRUlNUVVZXWFlaW1xdXl9gYWJjZGVmZ2hpamtsbW5vcAbd9uHXZaGT2cvhRs7reawctIXtX1s3kTqM9YV+/wCpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAwICASMGAgHJysvMzc7P0NHS09TV1tfY2drb3N3e3+Dh4uPk5ebn6A==",
+  "expectedFindings": [
+    {
+      "code": "TOKEN_AUTHORITY_CHANGE",
+      "instructionIndex": 0
+    }
+  ],
+  "safety": {
+    "unsigned": true,
+    "broadcastAllowed": false,
+    "disposableAddresses": true
+  },
+  "references": [
+    "https://solana.com/docs/tokens/basics/set-authority"
+  ]
+}

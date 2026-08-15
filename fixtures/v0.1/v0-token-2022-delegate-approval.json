@@ -1,0 +1,23 @@
+{
+  "specVersion": "0.1",
+  "id": "v0-token-2022-delegate-approval",
+  "title": "Versioned Token-2022 delegate approval",
+  "description": "A v0 transaction granting a delegate permission through the Token-2022 program.",
+  "cluster": "localnet",
+  "format": "v0",
+  "transactionBase64": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIBAgUBAgMEBQYHCAkKCwwNDg8QERITFBUWFxgZGhscHR4fIKGio6SlpqeoqaqrrK2ur7CxsrO0tba3uLm6u7y9vr/AUVJTVFVWV1hZWltcXV5fYGFiY2RlZmdoaWprbG1ub3AG3fbh7nWP3hhCXbzkbM3athr8TYO5DSf+vfko2KGL/Hl6e3x9fn+AgYKDhIWGh4iJiouMjY6PkJGSk5SVlpeYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAwMCBAEJBIDw+gIAAAAAAA==",
+  "expectedFindings": [
+    {
+      "code": "TOKEN_DELEGATE_APPROVAL",
+      "instructionIndex": 0
+    }
+  ],
+  "safety": {
+    "unsigned": true,
+    "broadcastAllowed": false,
+    "disposableAddresses": true
+  },
+  "references": [
+    "https://solana.com/docs/tokens/basics/set-authority"
+  ]
+}

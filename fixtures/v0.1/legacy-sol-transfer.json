@@ -1,0 +1,23 @@
+{
+  "specVersion": "0.1",
+  "id": "legacy-sol-transfer",
+  "title": "Legacy SOL transfer",
+  "description": "A plain legacy transaction transferring 0.25 SOL between disposable addresses.",
+  "cluster": "localnet",
+  "format": "legacy",
+  "transactionBase64": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEDAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyApKissLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgIAAQwCAAAAgLLmDgAAAAA=",
+  "expectedFindings": [
+    {
+      "code": "SOL_TRANSFER",
+      "instructionIndex": 0
+    }
+  ],
+  "safety": {
+    "unsigned": true,
+    "broadcastAllowed": false,
+    "disposableAddresses": true
+  },
+  "references": [
+    "https://solana.com/docs/core/transactions"
+  ]
+}
