@@ -53,4 +53,9 @@ Never paste a seed phrase or private key into this project. The committed transa
 
 This is an experimental grant-ready proof of concept, not production security infrastructure. The proposed route to a useful public good is documented in [docs/ROADMAP.md](docs/ROADMAP.md).
 
+The grant proposal's measurable commitments are published separately:
+
+- [Goals, milestones, completion evidence, and budget](docs/GRANT_MILESTONES.md)
+- [Primary KPI, success threshold, and reporting plan](docs/GRANT_KPI.md)
+
 Contributions are welcome under the MIT license.
